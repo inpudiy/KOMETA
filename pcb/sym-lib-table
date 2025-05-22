@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "kometa")(type "KiCad")(uri "${KIPRJMOD}/lib/kometa.kicad_sym")(options "")(descr ""))
+)

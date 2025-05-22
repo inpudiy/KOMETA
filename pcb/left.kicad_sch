@@ -1,0 +1,5816 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "00ad4774-6c96-4e9e-9a9b-4175b6874514")
+	(paper "A4")
+	(lib_symbols
+		(symbol "kometa:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.778)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PW"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -1.524 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.254 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.254 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_1_1"
+				(rectangle
+					(start -1.6764 1.397)
+					(end -2.54 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.6764 -1.143)
+					(end -2.54 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.6764 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.6764 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 1.27 180)
+					(length 3.81)
+					(name "BAT+"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 3.81)
+					(name "BAT-"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kometa:Diode"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.508 -6.096 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Diode_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Diode_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kometa:Keyswitch"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.254 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Keyswitch_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kometa:Power"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0.254 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.254 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0.254 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Power_0_0"
+				(circle
+					(center -4.572 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_0_1"
+				(polyline
+					(pts
+						(xy -4.064 0.254) (xy -0.889 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Power_1_1"
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kometa:Reset"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Reset_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "kometa:SuperMini"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SM"
+				(at 0 17.272 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 -19.558 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -23.368 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0.762 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SuperMini_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SuperMini_1_1"
+				(pin bidirectional line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "TX0/D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "RX1/D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "2/D1/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "3/D0/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "4/D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "5/C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "6/D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "7/E6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "8/B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 -15.24 0)
+					(length 5.08)
+					(name "9/B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "RAW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "F4/A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "F5/A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "F6/A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "F7/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "B1/15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "B3/14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "B2/16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "B6/10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 165.1 60.96)
+		(end 201.93 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 007c3ee8-0f42-4dd3-93aa-f6a188dd00ba)
+	)
+	(rectangle
+		(start 209.55 60.96)
+		(end 273.05 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 27d6a472-4eb7-4813-9afa-213c21c405e6)
+	)
+	(rectangle
+		(start 165.1 93.98)
+		(end 199.39 113.03)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28fe639c-ac60-44ff-b6f4-50705d663bf2)
+	)
+	(rectangle
+		(start 20.32 60.96)
+		(end 152.4 153.67)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da2b425d-df2f-4b38-bc6a-0b8ae6539a8f)
+	)
+	(text "Reset\n"
+		(exclude_from_sim no)
+		(at 167.64 92.456 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "59338010-e651-4d27-b653-37e10e9c0d03")
+	)
+	(text "Power"
+		(exclude_from_sim no)
+		(at 167.386 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ff8f8ea-c5c8-40e2-8050-d938d1f76497")
+	)
+	(text "Matrix\n"
+		(exclude_from_sim no)
+		(at 22.86 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7abdca4b-7cf0-4e09-abeb-afecbd148df9")
+	)
+	(text "Mcu"
+		(exclude_from_sim no)
+		(at 211.074 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d4943080-6692-470c-81a1-7f45be340353")
+	)
+	(junction
+		(at 55.88 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01e4de58-d277-419f-b1a1-f25c5b5ced4a")
+	)
+	(junction
+		(at 66.04 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11ed6952-4b6f-49fb-9673-56358ce2daf9")
+	)
+	(junction
+		(at 74.93 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "138fffae-d347-47d1-9a15-ea689928b4ed")
+	)
+	(junction
+		(at 36.83 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1be0b275-2f22-44a3-b48b-432563a42e01")
+	)
+	(junction
+		(at 46.99 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20651677-33a8-4f8f-95ba-192af95368bc")
+	)
+	(junction
+		(at 36.83 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23d1efa9-c5bc-4449-8d93-ef4bd19b871a")
+	)
+	(junction
+		(at 46.99 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "258cc6b8-b551-4f75-baaa-4c06f979d7ff")
+	)
+	(junction
+		(at 104.14 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26351b2c-08e4-42d1-9d40-a2aeaa047db8")
+	)
+	(junction
+		(at 85.09 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2bf15c22-037d-4d03-bab9-bd6dd467c5f5")
+	)
+	(junction
+		(at 55.88 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30013b0f-b9b4-4723-88be-419ba0697a3e")
+	)
+	(junction
+		(at 104.14 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34036ad7-05b8-4479-b4d1-b5e6c93c3955")
+	)
+	(junction
+		(at 142.24 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34cfa3c5-f187-449b-9ff6-d6ee1e69c59e")
+	)
+	(junction
+		(at 123.19 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37789119-761f-4566-bbb1-c1945eaaceb8")
+	)
+	(junction
+		(at 113.03 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38a9919e-5e25-4d14-9ebf-307093005841")
+	)
+	(junction
+		(at 93.98 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39e1aa2b-4f23-48c0-bdc1-5fe25535ded9")
+	)
+	(junction
+		(at 113.03 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "535b4c80-6c28-4761-b017-d515f74456c9")
+	)
+	(junction
+		(at 36.83 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af37454-efef-4bc2-a20d-5dedc050f238")
+	)
+	(junction
+		(at 66.04 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0b2d74-c6b6-4f6a-85fd-1459a68924ce")
+	)
+	(junction
+		(at 55.88 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88c444d7-4e24-41b3-b9b5-acbc5c899b87")
+	)
+	(junction
+		(at 113.03 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96e4deed-9fb6-4b2c-b8a9-0a11ba5d699b")
+	)
+	(junction
+		(at 123.19 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ee9add0-3b17-4eab-b50c-1a8c89adb85b")
+	)
+	(junction
+		(at 85.09 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69a9985-705b-4a87-b0d1-c5cac4f2fbd8")
+	)
+	(junction
+		(at 142.24 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae866790-3f56-4611-81fd-efd97550ff70")
+	)
+	(junction
+		(at 113.03 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b479c35f-1456-4282-9445-7f983c785ef7")
+	)
+	(junction
+		(at 93.98 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcf97f18-cb95-4309-a004-443c5056fa99")
+	)
+	(junction
+		(at 142.24 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beb5297f-0d08-431a-a38f-fba9e56f9b0c")
+	)
+	(junction
+		(at 93.98 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3ac48ed-7189-44b6-a2ff-36c7c25b4182")
+	)
+	(junction
+		(at 74.93 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c72f1434-1357-460c-b7ad-b76415880b19")
+	)
+	(junction
+		(at 104.14 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceb568df-f808-4828-a0cf-54b4a8134af5")
+	)
+	(junction
+		(at 93.98 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3f75674-29a8-44d5-bd27-f72ef661e4ad")
+	)
+	(junction
+		(at 74.93 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dff11545-e003-4d09-9ca3-a842b5765255")
+	)
+	(junction
+		(at 123.19 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eab740e2-f5d6-409d-b0c8-43994af9bbb2")
+	)
+	(no_connect
+		(at 259.08 76.2)
+		(uuid "04b18aec-2882-4cda-847a-89bf0e377c58")
+	)
+	(no_connect
+		(at 223.52 73.66)
+		(uuid "06a44482-9b31-4cda-a712-5b63795fd432")
+	)
+	(no_connect
+		(at 223.52 76.2)
+		(uuid "24787fbd-be18-4796-9944-83220c3320e8")
+	)
+	(no_connect
+		(at 259.08 83.82)
+		(uuid "24d52edc-873d-4f06-baec-58f68e4e04df")
+	)
+	(no_connect
+		(at 259.08 91.44)
+		(uuid "29059aa0-e177-4232-8017-cbeb2e9381a7")
+	)
+	(no_connect
+		(at 259.08 86.36)
+		(uuid "427a1d65-9100-4895-827e-755de93d9fce")
+	)
+	(no_connect
+		(at 259.08 93.98)
+		(uuid "4c679e6a-c755-443f-9457-0b8cf8f7326a")
+	)
+	(no_connect
+		(at 223.52 81.28)
+		(uuid "a150bee5-322c-49cf-ae1a-882791029338")
+	)
+	(no_connect
+		(at 189.23 73.66)
+		(uuid "bec140a1-3063-4982-9a11-e6c3d138dea8")
+	)
+	(no_connect
+		(at 259.08 88.9)
+		(uuid "c835677e-d6ca-4cb4-9a9a-7d19b361c89a")
+	)
+	(no_connect
+		(at 259.08 81.28)
+		(uuid "f30e5e97-ceea-44bb-9b7e-3b1b1bbaa711")
+	)
+	(no_connect
+		(at 259.08 96.52)
+		(uuid "f40e97f0-6e1d-45d7-bd7a-25df7c86f4fb")
+	)
+	(wire
+		(pts
+			(xy 36.83 87.63) (xy 55.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06349a93-5ca1-470b-a6f8-dd400020b727")
+	)
+	(wire
+		(pts
+			(xy 36.83 106.68) (xy 55.88 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab24dc3-ed07-4284-90ed-24bee790c428")
+	)
+	(wire
+		(pts
+			(xy 142.24 118.11) (xy 142.24 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10c64123-d059-445e-a24d-85377124fb65")
+	)
+	(wire
+		(pts
+			(xy 104.14 80.01) (xy 104.14 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe821d4-44d1-464d-bed3-c2e4337d889e")
+	)
+	(wire
+		(pts
+			(xy 93.98 87.63) (xy 113.03 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241e78ed-e752-4935-a84a-8a8c0d72e8c2")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 104.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b93711-1554-485b-b34e-955c2311062a")
+	)
+	(wire
+		(pts
+			(xy 66.04 78.74) (xy 66.04 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0afdf1-3a96-45c3-a3a8-031d70ab58fa")
+	)
+	(wire
+		(pts
+			(xy 93.98 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3385f0c9-c623-4728-8a88-9ede512f1a61")
+	)
+	(wire
+		(pts
+			(xy 36.83 125.73) (xy 55.88 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35009210-1269-45d7-9fd7-2e6ccbf1e169")
+	)
+	(wire
+		(pts
+			(xy 93.98 125.73) (xy 113.03 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "369a72cd-32fb-45c9-a9e6-4fb99b704235")
+	)
+	(wire
+		(pts
+			(xy 35.56 125.73) (xy 36.83 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fc45fc4-6b93-4958-871a-7f9d8ded6598")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 36.83 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d88292-a18e-4481-88cc-d6ebc1e941c9")
+	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4885b580-e8be-431b-b744-af034340b048")
+	)
+	(wire
+		(pts
+			(xy 46.99 78.74) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d7b58a6-1e67-4f35-996c-d7194a888cbe")
+	)
+	(wire
+		(pts
+			(xy 55.88 125.73) (xy 74.93 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c71a9d7-92bc-40c8-ab9a-5dfa95d2d205")
+	)
+	(wire
+		(pts
+			(xy 46.99 99.06) (xy 46.99 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d0e882a-d929-4f25-9757-6faa5e947c7e")
+	)
+	(wire
+		(pts
+			(xy 113.03 87.63) (xy 132.08 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63297b38-65d4-493c-bb73-3e0d5c561bb2")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 132.08 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd48871-c5f7-4e54-a8ca-54d9c92937d7")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b96947-74c7-4853-850b-0c7bf82e44dd")
+	)
+	(wire
+		(pts
+			(xy 46.99 80.01) (xy 46.99 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786bd5c1-2f17-4886-a096-265fd961604d")
+	)
+	(wire
+		(pts
+			(xy 35.56 106.68) (xy 36.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87358c7d-af26-4551-82f8-5270c02b533e")
+	)
+	(wire
+		(pts
+			(xy 66.04 99.06) (xy 66.04 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88794987-8f82-40b6-89ea-1b0722e644d5")
+	)
+	(wire
+		(pts
+			(xy 142.24 99.06) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be7e61c-57f2-47d0-9bfa-8117522801a8")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fb9d8fb-44c7-4e07-9b72-bacaae558d60")
+	)
+	(wire
+		(pts
+			(xy 123.19 80.01) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92882c5b-3892-4ae7-b7d4-b5562f16729b")
+	)
+	(wire
+		(pts
+			(xy 113.03 146.05) (xy 132.08 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9320df04-03bc-4f93-abde-a77ce87cf83c")
+	)
+	(wire
+		(pts
+			(xy 104.14 118.11) (xy 104.14 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995c81d4-1691-446b-a127-f333498e152d")
+	)
+	(wire
+		(pts
+			(xy 104.14 99.06) (xy 104.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa28a31-f3f0-4ccc-a914-4051a26b95fb")
+	)
+	(wire
+		(pts
+			(xy 92.71 146.05) (xy 93.98 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f9f41d-3fbb-4812-84b4-a8021f066746")
+	)
+	(wire
+		(pts
+			(xy 142.24 78.74) (xy 142.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7127739-36ed-4309-91ba-cfc0fa93947f")
+	)
+	(wire
+		(pts
+			(xy 123.19 118.11) (xy 123.19 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3d2884-e5c4-463e-a394-a218303e6898")
+	)
+	(wire
+		(pts
+			(xy 55.88 106.68) (xy 74.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4564bd-ebe7-49a9-8449-78df68943548")
+	)
+	(wire
+		(pts
+			(xy 85.09 80.01) (xy 85.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d02b9983-1400-4349-b8af-4a26e50e1008")
+	)
+	(wire
+		(pts
+			(xy 113.03 125.73) (xy 132.08 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d05a9f85-d680-4a01-8b4f-a20579f0acc3")
+	)
+	(wire
+		(pts
+			(xy 74.93 125.73) (xy 93.98 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17f8a60-535c-4351-9074-a8d36751ed1a")
+	)
+	(wire
+		(pts
+			(xy 85.09 99.06) (xy 85.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da935177-c5f9-4f20-9efe-0c0dbe84d59e")
+	)
+	(wire
+		(pts
+			(xy 74.93 106.68) (xy 93.98 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc409667-a5d9-41ef-b62c-6b431427c5e9")
+	)
+	(wire
+		(pts
+			(xy 93.98 146.05) (xy 113.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13b6c79-eb11-4b42-8b28-4e7fabf08b31")
+	)
+	(wire
+		(pts
+			(xy 55.88 87.63) (xy 74.93 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d00923-acf2-493d-aedd-b4d48d24e7c0")
+	)
+	(wire
+		(pts
+			(xy 123.19 99.06) (xy 123.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed36ee79-cd39-47d6-835f-6f33ea9d45b1")
+	)
+	(wire
+		(pts
+			(xy 85.09 78.74) (xy 85.09 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2963a6-245f-4738-bf53-03cf2f55159d")
+	)
+	(wire
+		(pts
+			(xy 74.93 87.63) (xy 93.98 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f076d0b3-1226-42ce-95a5-d50c28828845")
+	)
+	(global_label "ROW_L3"
+		(shape input)
+		(at 259.08 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "043bc1e1-92c7-449f-899b-0bb574aabf5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.3223 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET_L"
+		(shape input)
+		(at 180.34 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d96919b-2291-4765-8db4-b39ded6d3d7a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.614 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L2"
+		(shape input)
+		(at 35.56 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f448fdc-dac1-42db-bee2-cc3ff45c9a39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3177 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAW_L"
+		(shape input)
+		(at 189.23 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "182ea9b3-6942-4d10-81e2-d5958d923803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.0209 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 179.07 73.66 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19f56629-7783-41ba-a1e8-3e00b02a0500")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 179.07 82.5114 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L0"
+		(shape input)
+		(at 223.52 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21d18dd9-b4da-4abe-bae5-02704d603b08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L3"
+		(shape input)
+		(at 104.14 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "22cba91e-311a-4698-b8ec-d7bad15a5197")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 68.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RAW_L"
+		(shape input)
+		(at 259.08 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c87dc4c-e30b-44c3-aa9c-c3f8d54b1120")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.8709 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L1"
+		(shape input)
+		(at 66.04 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d21cc6a-5db0-4111-a17b-45b854735331")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 68.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L0"
+		(shape input)
+		(at 35.56 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "41ccf5d4-6d9a-4b51-8477-19dfdd355dc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3177 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L0"
+		(shape input)
+		(at 223.52 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e770fac-e588-4112-8e2a-174ba15d93d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2777 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L3"
+		(shape input)
+		(at 223.52 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "514cb3ae-eb7a-4307-b0bd-28be4312a1c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L2"
+		(shape input)
+		(at 259.08 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "676aa41e-9d55-49f4-bb1d-dda9d25252f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.3223 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L4"
+		(shape input)
+		(at 123.19 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fe69986-ea74-45ef-a331-87442d371e56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.19 68.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L1"
+		(shape input)
+		(at 35.56 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7132defb-2e9a-440c-b6a7-840747a664d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3177 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L1"
+		(shape input)
+		(at 223.52 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71c82214-e899-48f1-a541-bcc8628bbb97")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.2777 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L2"
+		(shape input)
+		(at 223.52 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78a9b923-6d09-49be-865c-c33795f78f61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L0"
+		(shape input)
+		(at 46.99 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a51a86e4-9780-42d5-990c-56f155003734")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.99 68.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L5"
+		(shape input)
+		(at 142.24 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b23bc29f-0076-4d22-a162-d4b9ae21eb7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 68.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L2"
+		(shape input)
+		(at 85.09 78.74 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7115c08-bcb9-46fe-93c3-b822ef2adbdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.09 68.921 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 223.52 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7d78c92-bee1-48c0-ac86-39e638aa1fa4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.6686 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L1"
+		(shape input)
+		(at 223.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c214c161-f729-4ff8-ac6b-68bb105738cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L5"
+		(shape input)
+		(at 223.52 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b133f9-da7e-41fb-a357-dea98e8b7962")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_L"
+		(shape input)
+		(at 190.5 102.87 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e725468b-fb78-4854-86d4-5b55d0b5da41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 111.7214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW_L3"
+		(shape input)
+		(at 92.71 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec740c43-c9f6-4fc2-b3da-972a239f1aec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.4677 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL_L4"
+		(shape input)
+		(at 223.52 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ed886ea0-b24f-421f-bba9-50d46d3a6745")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.701 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET_L"
+		(shape input)
+		(at 259.08 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5794be4-87b1-4d62-a248-449faca8d42e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 269.806 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 80.01 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0048a9c1-89dd-452e-a170-a543ac794599")
+		(property "Reference" "SW9"
+			(at 80.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 79.756 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 79.756 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4097dab8-041e-4d97-982d-d425c95b974a")
+		)
+		(pin "1"
+			(uuid "033e69d9-e8fa-4528-8b5d-6de24a62b688")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 137.16 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "051ab1d3-70f4-4f96-b5fa-963847724fb0")
+		(property "Reference" "SW12"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 136.906 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.906 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "887181c8-80d6-4baf-9d7b-4f28ac6f7ccc")
+		)
+		(pin "1"
+			(uuid "534dfeb8-91b3-4c59-a9fc-b2870d8ff825")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 41.91 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06ee2d4d-9d4d-4922-a9ee-71e408510179")
+		(property "Reference" "SW1"
+			(at 41.91 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.91 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 41.656 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.656 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d60b6a8a-6e39-457d-8c2a-c74f71ec7767")
+		)
+		(pin "1"
+			(uuid "bf461b41-c8ad-47f2-b18d-b577db9dab7c")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 132.08 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099a7011-205a-4e53-902e-b494c1c7db67")
+		(property "Reference" "D12"
+			(at 134.62 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 138.176 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "146c3ea6-9c21-4887-88ab-1d132cf5f5fb")
+		)
+		(pin "2"
+			(uuid "e8077f27-121c-4714-9341-476496290036")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 137.16 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e236cf7-2e53-4907-9976-e1b6efaed2ae")
+		(property "Reference" "SW6"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 136.906 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.906 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4a9c3d8-07ac-44c4-b7ba-85bc4726c5cb")
+		)
+		(pin "1"
+			(uuid "b6615035-c154-47be-a3a9-8280b4408188")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 55.88 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f3f1965-d5a3-4790-ae97-164e48e787b8")
+		(property "Reference" "D2"
+			(at 58.42 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 61.976 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.182 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "332fbb6a-af8a-457e-a154-b2ce2d37968d")
+		)
+		(pin "2"
+			(uuid "7e5a1c9a-651d-4929-921e-20795ab53c24")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Battery")
+		(at 176.53 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f82437-7d4f-40b7-8014-25013022da87")
+		(property "Reference" "PW_L1"
+			(at 174.625 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 174.625 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kometa:Battery"
+			(at 176.784 78.486 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 176.276 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd6cb7ec-4788-4393-9fa3-ecfbc66dcb7d")
+		)
+		(pin "2"
+			(uuid "6feddd98-abce-4297-af6b-c0778eab54d1")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "PW_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 74.93 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1639be3d-d88f-4c75-b1dd-5f776ed44c4c")
+		(property "Reference" "D9"
+			(at 77.47 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 81.026 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff82a20-e7fb-4a47-a8ac-83fb105839af")
+		)
+		(pin "2"
+			(uuid "60fc3f94-acc1-47c4-97fc-cc638fac0a0a")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 99.06 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ecf1260-2b04-4d21-bdcd-eff633dd12b8")
+		(property "Reference" "SW16"
+			(at 99.06 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 99.06 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 98.806 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.806 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "963ee2af-728e-470e-9c75-71ef118a553e")
+		)
+		(pin "1"
+			(uuid "7b8f5696-ac09-4fd1-aea8-725d67840e83")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 137.16 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22c78fea-0dd7-4d0a-a56f-f4bf68492bd9")
+		(property "Reference" "SW18"
+			(at 137.16 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 136.906 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.906 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f28f5b80-bae6-4e4e-a8bb-4af90cda902e")
+		)
+		(pin "1"
+			(uuid "0b3e9bcf-4a4e-4882-ae21-4eac3d33712a")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 60.96 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25ec227b-a2d1-4b34-bf97-3cce4c0a7aa6")
+		(property "Reference" "SW2"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 60.706 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.706 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "035bff01-e193-49e3-a026-366c6eca19c7")
+		)
+		(pin "1"
+			(uuid "733ad142-f353-44b4-a4a2-47163b329240")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 118.11 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ee8c48-43ae-4563-8dfb-4f52fd302bf2")
+		(property "Reference" "SW20"
+			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 117.856 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.856 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b765d7f-516f-4b48-bb60-d3daa8d65a82")
+		)
+		(pin "1"
+			(uuid "12bb0084-7bbd-4cbf-9d54-1173482118e6")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 93.98 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31350846-4a4f-4913-8568-829a86fa27a7")
+		(property "Reference" "D19"
+			(at 96.52 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 100.076 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c845e6b-4c52-4cbf-b29c-0c0336d8e24c")
+		)
+		(pin "2"
+			(uuid "72870370-8994-4a8e-9736-2d63ee539107")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 118.11 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31de5f9b-aa6b-4e7d-bace-b0350cc0606e")
+		(property "Reference" "SW11"
+			(at 118.11 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 117.856 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.856 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6979b2f-5f09-472b-b32d-fc21e151dd63")
+		)
+		(pin "1"
+			(uuid "e3511b07-eeb0-4ba6-ad5c-22f66704b906")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 80.01 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b5bed1f-6473-4df3-86d2-19dedb9df628")
+		(property "Reference" "SW3"
+			(at 80.01 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 79.756 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 79.756 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf3c8bfc-778c-4013-b765-a9b693d85608")
+		)
+		(pin "1"
+			(uuid "d9c0aaf1-ef9f-4042-b63c-93d2d2db0fbf")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 113.03 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f666c8c-7fd2-4e88-ab9d-1dcfa1bfe3c8")
+		(property "Reference" "D20"
+			(at 115.57 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 119.126 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.332 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8379b856-e861-4587-8d06-a5837ca5a169")
+		)
+		(pin "2"
+			(uuid "02b14526-2a33-4df6-a55a-a456940456aa")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 74.93 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fbb9cc8-a8d9-4635-96b8-8787209cc110")
+		(property "Reference" "D15"
+			(at 77.47 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 81.026 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e72d2f7a-a34c-421b-b11f-c4560436b75a")
+		)
+		(pin "2"
+			(uuid "5c410be2-2c47-4e35-8d1c-df48de9b4f9a")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Reset")
+		(at 185.42 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ddd37a5-ab18-4c38-a3c6-252b58ceec77")
+		(property "Reference" "R_L1"
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kometa:Reset"
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a497796e-730d-4f15-8076-bdf4300cc137")
+		)
+		(pin "1"
+			(uuid "e17a618c-ab06-4594-8b92-c8cfb85cbb4a")
+		)
+		(instances
+			(project ""
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "R_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 74.93 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "575c68f7-6a1a-4939-a0a8-0673734241e8")
+		(property "Reference" "D3"
+			(at 77.47 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 81.026 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.232 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5670963-b4bb-409d-a547-88ddf733c3b8")
+		)
+		(pin "2"
+			(uuid "ed118f4e-86e0-4652-be47-4c6fa15c8d77")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 113.03 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59375e7d-9480-456a-aa41-397f47582dcb")
+		(property "Reference" "D11"
+			(at 115.57 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 119.126 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.332 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "648c1f7a-fb2b-46fb-bece-24be2ef58445")
+		)
+		(pin "2"
+			(uuid "8bd04afb-0dbb-43ca-a34b-f3bb236d69a1")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 132.08 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "617daca5-318a-4d4b-ad2b-4eb847532642")
+		(property "Reference" "D18"
+			(at 134.62 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 138.176 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd485ec2-bddd-4b0c-bb13-f9fc6fdc11a0")
+		)
+		(pin "2"
+			(uuid "d1d0901e-4d8b-4f43-9ab8-bbfb75f8b6a5")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 36.83 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62f67fdc-ecb2-4f92-a84c-a396c07d34e0")
+		(property "Reference" "D1"
+			(at 39.37 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 42.926 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.132 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ce280b7-1fa1-46a0-bf9e-6a56b0758dc9")
+		)
+		(pin "2"
+			(uuid "c999ad69-8c01-47fa-9369-596adbc8abd2")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 36.83 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "733b58ec-a8ad-43c6-bbb6-9abb151e2050")
+		(property "Reference" "D13"
+			(at 39.37 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 42.926 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.132 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5141c399-a307-4c7b-8fe5-a3293ec3fc45")
+		)
+		(pin "2"
+			(uuid "1c72ffc1-7af5-47e5-a38e-2d815fafcea4")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 118.11 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74fd264f-6756-4914-b43d-775d157b5ea1")
+		(property "Reference" "SW5"
+			(at 118.11 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 117.856 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.856 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d1901c4-8ff9-421c-a78d-30523daf998d")
+		)
+		(pin "1"
+			(uuid "9633e8f1-234c-4a99-aa91-0c0d3007aba7")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 113.03 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8051d369-3eb7-46cb-8006-61257998252c")
+		(property "Reference" "D17"
+			(at 115.57 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 119.126 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.332 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7cb2b5c4-8506-4bc1-8ab5-fd5eef1f82e2")
+		)
+		(pin "2"
+			(uuid "455789c8-f025-4d7f-9c81-e67c5c95c354")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 41.91 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "861c020f-ac7b-4363-be0a-19f9c0ea778c")
+		(property "Reference" "SW13"
+			(at 41.91 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.91 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 41.656 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.656 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c4e474b-f81f-468f-ba31-f76049a1d525")
+		)
+		(pin "1"
+			(uuid "010abfef-2654-40e9-b122-893941ed3663")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 132.08 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8be9e653-5b6f-4382-9ed6-735bbc95640e")
+		(property "Reference" "D6"
+			(at 134.62 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 138.176 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a0ae213-7a51-43a2-a3b8-03e5441edae0")
+		)
+		(pin "2"
+			(uuid "7fb30cac-93cb-4a47-8934-dedb1491a3c3")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 60.96 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f200244-ee39-4179-bebf-7da25f3cb87b")
+		(property "Reference" "SW14"
+			(at 60.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 60.706 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.706 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ae720f2d-c24f-4dc1-9aae-a06c6e2b3a5c")
+		)
+		(pin "1"
+			(uuid "b64bd168-f6c0-44ba-8e78-12098e51053b")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 55.88 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93a556ad-4648-4f93-ba37-16f64e9e9be4")
+		(property "Reference" "D8"
+			(at 58.42 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 61.976 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.182 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3f078e4-bbed-4112-ab85-9f1378bd42f9")
+		)
+		(pin "2"
+			(uuid "a05f878f-7b6d-411c-869b-920671c577bd")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 99.06 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95d0d58c-02cf-46ee-afe6-2268da08004e")
+		(property "Reference" "SW4"
+			(at 99.06 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 99.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 98.806 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.806 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e715912-8e0f-4f00-ab10-56e4aab7d09c")
+		)
+		(pin "1"
+			(uuid "f93c3fcf-1613-452e-a9c5-cb64b63fbce6")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 118.11 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9d24db6-70cf-4a70-ba99-1386658fd48e")
+		(property "Reference" "SW17"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 117.856 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 117.856 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3fa8e761-9a83-4e2e-a86c-eb6510d9609d")
+		)
+		(pin "1"
+			(uuid "816ddd25-3ed3-4495-bdd7-c992784d4bfe")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 99.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "add28fec-2e66-4964-87c1-d976386d8ca6")
+		(property "Reference" "SW19"
+			(at 99.06 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 99.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 98.806 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.806 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4274860a-685e-4048-89c4-a896fbfffb7f")
+		)
+		(pin "1"
+			(uuid "45b0fb3b-ec5d-4d74-beb3-fbabd9699964")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 41.91 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d4f6a0-201f-46ae-9476-b55d7d949724")
+		(property "Reference" "SW7"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 41.91 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 41.656 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.656 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f40c8b05-287a-47e3-bb97-96201534c94b")
+		)
+		(pin "1"
+			(uuid "082c268b-fcd0-46bb-b233-d154bb767171")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 132.08 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3d74746-eab6-4c19-82bd-91714e197f88")
+		(property "Reference" "D21"
+			(at 134.62 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 138.176 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.382 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44232476-d61a-4a48-aac8-7f51505bada5")
+		)
+		(pin "2"
+			(uuid "83ef16ea-2fc0-4adc-876e-818c9d3bc9e2")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 113.03 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd5a0ea8-fd66-432e-9c08-0b01087370f2")
+		(property "Reference" "D5"
+			(at 115.57 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 119.126 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.332 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c919c5bd-9e91-49d4-b769-b5d18a799ae7")
+		)
+		(pin "2"
+			(uuid "ce5de775-83de-47bf-99dd-fee18e9c9bb3")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 60.96 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf1e2157-e349-4824-a373-10e9f41503f7")
+		(property "Reference" "SW8"
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 60.706 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.706 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2106596-4844-48f2-b712-c59aaa41f392")
+		)
+		(pin "1"
+			(uuid "acd23af5-519c-4075-9b7c-1af99504c371")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 99.06 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0337257-52d3-4ee2-9b42-b98f73dd05c0")
+		(property "Reference" "SW10"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 99.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 98.806 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 98.806 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dc0e1630-9ccd-4005-a3b7-7968f448d5eb")
+		)
+		(pin "1"
+			(uuid "d8a5a201-3a85-48e2-9908-26a66dc50c92")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 80.01 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9533610-5c31-4fd5-9c90-57c6f2b5cb9c")
+		(property "Reference" "SW15"
+			(at 80.01 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 80.01 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 79.756 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 79.756 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da450e91-be38-4e71-bcfc-de7e935daf30")
+		)
+		(pin "1"
+			(uuid "f2d92fea-09b8-4b47-881c-59306ae93ca9")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:SuperMini")
+		(at 241.3 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca4b3c10-3b7f-457c-bdd0-315abf8a2735")
+		(property "Reference" "SM_L1"
+			(at 241.3 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 241.3 105.918 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:SuperMini"
+			(at 241.3 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.062 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "22"
+			(uuid "7318d536-2029-4670-8291-bac429c553a0")
+		)
+		(pin "21"
+			(uuid "c540cee1-9893-4083-9513-a9ce6ddc33c8")
+		)
+		(pin "8"
+			(uuid "06dabfc0-c547-4b40-86df-c52bf4673b22")
+		)
+		(pin "12"
+			(uuid "13e9a726-2e18-420e-bc7e-e283bfc82b1b")
+		)
+		(pin "2"
+			(uuid "a5475493-1f3a-4bde-9f83-0ee374d9ffd2")
+		)
+		(pin "13"
+			(uuid "a52fee67-5294-4f87-a495-eefc11457098")
+		)
+		(pin "3"
+			(uuid "34b20969-cf96-433e-ad2c-d737a4e15302")
+		)
+		(pin "1"
+			(uuid "84562131-c229-4682-90b2-6feb822bbea0")
+		)
+		(pin "20"
+			(uuid "c7795efc-d301-4099-b81c-16e20f130fd4")
+		)
+		(pin "10"
+			(uuid "e8370fad-c60f-40ee-9211-440f9c2eb57a")
+		)
+		(pin "17"
+			(uuid "dfdecd4c-62c2-4a47-bbe2-58b65f180ea7")
+		)
+		(pin "9"
+			(uuid "500ba11f-f023-466f-a35f-91aaefbc4f8d")
+		)
+		(pin "6"
+			(uuid "2c6200ea-f763-4146-8b4c-090de1b63c69")
+		)
+		(pin "18"
+			(uuid "7a96f1a2-a3ea-4be1-bca9-b0b9b744690c")
+		)
+		(pin "4"
+			(uuid "f28f595a-dcdd-4c48-8d06-b8b4c95432ff")
+		)
+		(pin "14"
+			(uuid "f38ffd7d-1ed2-4ff9-b510-997ddc1371d9")
+		)
+		(pin "19"
+			(uuid "b3ac27ef-92d0-4a76-92d2-afe104016ce1")
+		)
+		(pin "23"
+			(uuid "6d5b34c4-c8cf-4888-b749-58c305753309")
+		)
+		(pin "11"
+			(uuid "d0901318-1413-4f5a-b9f0-f39ba56dcad1")
+		)
+		(pin "16"
+			(uuid "d98c80fc-1b8b-4962-bda6-a261ebeffd74")
+		)
+		(pin "5"
+			(uuid "c1567b42-4681-4f04-abe7-c7a870d009f4")
+		)
+		(pin "24"
+			(uuid "fc70bfd1-6506-4b6e-8a2b-9815307057bb")
+		)
+		(pin "7"
+			(uuid "75db0625-c1d4-4e85-bc06-88df3ce72f29")
+		)
+		(pin "15"
+			(uuid "831ab0cf-231f-4e2e-827d-6f6cddd6df82")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SM_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 55.88 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb4b8a40-8021-460a-84d2-0866fb256eae")
+		(property "Reference" "D14"
+			(at 58.42 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 61.976 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 59.182 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc66ee89-d384-4052-be6a-7910a9843a52")
+		)
+		(pin "2"
+			(uuid "9b163c49-9806-4e5b-bc2d-bcdb4721f8bb")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Power")
+		(at 186.69 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe37f1a-43b5-4324-a064-123dabb920aa")
+		(property "Reference" "PS_L1"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 184.15 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kometa:MSK-12C02"
+			(at 186.944 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.944 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bae33718-1ebb-405c-8530-397cc8843eef")
+		)
+		(pin "3"
+			(uuid "6177470a-8589-46f4-be6a-b01d7d87fdfb")
+		)
+		(pin "1"
+			(uuid "ab489be1-a327-429b-9b62-8f99335528cb")
+		)
+		(instances
+			(project ""
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "PS_L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 93.98 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4993e8b-69a7-4a46-b423-d2a8a6c576ea")
+		(property "Reference" "D4"
+			(at 96.52 83.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 100.076 83.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5503f49a-58bc-4679-927f-723c8e979ea3")
+		)
+		(pin "2"
+			(uuid "4d4a6f23-94fe-423b-94bd-4f3b0e691827")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Keyswitch")
+		(at 137.16 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65c1f5a-8b35-4998-b4d7-fb18ebfef4a8")
+		(property "Reference" "SW21"
+			(at 137.16 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:ChocV2"
+			(at 136.906 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.906 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2bf898e1-88bf-4bbd-ad9d-6416fd46c9d4")
+		)
+		(pin "1"
+			(uuid "5d4563ec-d246-4ae1-aa0a-e215a61f7b66")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 93.98 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b903a5-d284-4274-b39c-d09c1323b405")
+		(property "Reference" "D16"
+			(at 96.52 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 100.076 121.412 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 121.666 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f88cdca8-46bf-4615-8391-2ee97ba50115")
+		)
+		(pin "2"
+			(uuid "38cb3acb-fde5-4357-aa88-81d8fd271038")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 36.83 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea091d1e-8067-4f92-a635-b0ee7a49bf14")
+		(property "Reference" "D7"
+			(at 39.37 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 34.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 42.926 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.132 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8380e9e4-139d-4028-a21f-b66b84078346")
+		)
+		(pin "2"
+			(uuid "242d9f2b-e5c7-4689-8d9e-f64ad5236c49")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:Diode")
+		(at 93.98 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffc2a349-d4cc-4265-8c9f-a3059e5ab191")
+		(property "Reference" "D10"
+			(at 96.52 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "~"
+			(at 91.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:Diode"
+			(at 100.076 102.362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.282 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659e9684-0485-481c-92e3-1494ed26bc7d")
+		)
+		(pin "2"
+			(uuid "60505efb-9485-4f9b-8940-ae1a701d475e")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/56666e1e-9460-4275-af0a-60c0fca684c8"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
