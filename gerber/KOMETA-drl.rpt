@@ -1,0 +1,31 @@
+Drill report for KOMETA.kicad_pcb
+Created on 2025-06-05T01:56:20+0300
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'KOMETA-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (55 holes)
+    T2  1.000mm  0.0394"  (4 holes)
+    T3  1.600mm  0.0630"  (48 holes)
+    T4  2.200mm  0.0866"  (12 holes)
+    T5  4.500mm  0.1772"  (1 hole)
+
+    Total plated holes count 120
+
+
+Drill file 'KOMETA-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.500mm  0.0197"  (60 holes)
+    T2  0.700mm  0.0276"  (4 holes)
+    T3  1.600mm  0.0630"  (42 holes)
+    T4  3.050mm  0.1201"  (84 holes)
+    T5  5.050mm  0.1988"  (42 holes)
+
+    Total unplated holes count 232
