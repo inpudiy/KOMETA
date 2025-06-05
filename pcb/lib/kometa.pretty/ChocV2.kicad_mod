@@ -72,9 +72,9 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 -5.9)
-		(size 3.05 3.05)
-		(drill 3.05)
-		(layers "*.Cu" "*.Mask")
+		(size 3.01 3.01)
+		(drill 3.01)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "554dd6b5-cf92-45dc-a0dd-408d602d88ff")
 	)
 	(pad "" np_thru_hole circle
@@ -86,9 +86,9 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 5 -3.8)
-		(size 3.05 3.05)
-		(drill 3.05)
-		(layers "*.Cu" "*.Mask")
+		(size 3.01 3.01)
+		(drill 3.01)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "884aa57c-46a4-4e40-855f-ffb4c70db083")
 	)
 	(pad "1" smd roundrect
