@@ -6,6 +6,7 @@
 	(property "Reference" "SW"
 		(at 5.7 7.85 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "f26eaed1-141a-4838-bf30-2af01f5a8a70")
 		(effects
 			(font
