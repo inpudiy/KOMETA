@@ -1,5 +1,5 @@
 Drill report for KOMETA.kicad_pcb
-Created on 2025-06-05T16:27:09+0300
+Created on 2025-06-05T20:26:38+0300
 
 Copper Layer Stackup:
     =============================================================
@@ -12,7 +12,7 @@ Drill file 'KOMETA-PTH.drl' contains
     =============================================================
     T1  0.300mm  0.0118"  (55 holes)
     T2  1.000mm  0.0394"  (4 holes)
-    T3  1.600mm  0.0630"  (48 holes)
+    T3  1.500mm  0.0591"  (48 holes)
     T4  2.200mm  0.0866"  (12 holes)
     T5  4.500mm  0.1772"  (1 hole)
 
