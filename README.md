@@ -4,5 +4,5 @@
 
 ## PCB Image
 
-![Bottom](https://raw.githubusercontent.com/inpudiy/KOMETA/refs/heads/main/image/bottom.png)
-![Top](https://raw.githubusercontent.com/inpudiy/KOMETA/refs/heads/main/image/top.png)
+![Bottom](https://raw.githubusercontent.com/inpudiy/KOMETA/refs/heads/main/image/pcb/bottomPCB.png)
+![Top](https://raw.githubusercontent.com/inpudiy/KOMETA/refs/heads/main/image/pcb/topPCB.png)
