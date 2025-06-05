@@ -55,7 +55,7 @@
 	(pad "1" thru_hole oval
 		(at -7.62 -12.7)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -64,7 +64,7 @@
 	(pad "2" thru_hole oval
 		(at -7.62 -10.16)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -73,7 +73,7 @@
 	(pad "3" thru_hole roundrect
 		(at -7.62 -7.62)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1315789474)
@@ -83,7 +83,7 @@
 	(pad "4" thru_hole roundrect
 		(at -7.62 -5.08)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1315789474)
@@ -93,7 +93,7 @@
 	(pad "5" thru_hole oval
 		(at -7.62 -2.54)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -102,7 +102,7 @@
 	(pad "6" thru_hole oval
 		(at -7.62 0)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -111,7 +111,7 @@
 	(pad "7" thru_hole oval
 		(at -7.62 2.54)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -120,7 +120,7 @@
 	(pad "8" thru_hole oval
 		(at -7.62 5.08)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -129,7 +129,7 @@
 	(pad "9" thru_hole oval
 		(at -7.62 7.62)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -138,7 +138,7 @@
 	(pad "10" thru_hole oval
 		(at -7.62 10.16)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -147,7 +147,7 @@
 	(pad "11" thru_hole oval
 		(at -7.62 12.7)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -156,7 +156,7 @@
 	(pad "12" thru_hole oval
 		(at -7.62 15.24)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -165,7 +165,7 @@
 	(pad "13" thru_hole oval
 		(at 7.62 15.24)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -174,7 +174,7 @@
 	(pad "14" thru_hole oval
 		(at 7.62 12.7)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -183,7 +183,7 @@
 	(pad "15" thru_hole oval
 		(at 7.62 10.16)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -192,7 +192,7 @@
 	(pad "16" thru_hole oval
 		(at 7.62 7.62)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -201,7 +201,7 @@
 	(pad "17" thru_hole oval
 		(at 7.62 5.08)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -210,7 +210,7 @@
 	(pad "18" thru_hole oval
 		(at 7.62 2.54)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -219,7 +219,7 @@
 	(pad "19" thru_hole oval
 		(at 7.62 0)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -228,7 +228,7 @@
 	(pad "20" thru_hole oval
 		(at 7.62 -2.54)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -237,7 +237,7 @@
 	(pad "21" thru_hole oval
 		(at 7.62 -5.08)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -246,7 +246,7 @@
 	(pad "22" thru_hole oval
 		(at 7.62 -7.62)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
@@ -255,7 +255,7 @@
 	(pad "23" thru_hole roundrect
 		(at 7.62 -10.16)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1315789474)
@@ -265,7 +265,7 @@
 	(pad "24" thru_hole oval
 		(at 7.62 -12.7)
 		(size 1.9 1.9)
-		(drill 1.6)
+		(drill 1.5)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 0)
