@@ -1,4 +1,4 @@
-# MOKETA aka KOMETA
+# MOKETA aka MOKETA
 
 [Build Guide](https://github.com/inpudiy) - [ZMK Firmware](https://github.com/inpudiy/kometa-zmk-config)
 
