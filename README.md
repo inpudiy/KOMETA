@@ -1,4 +1,5 @@
 # KOMETA aka MOKETA
+# CASE SOURCE SOON
 
 KOMETA is a split keyboard built around Choc v2 switches, designed for wireless operation with Pro Micro–sized microcontrollers. Its key feature is a mid-mount, hot-swappable controller design. To enable this, the PCB includes a USB-C port cutout, ensuring compatibility with popular wireless boards like: nice!nano or SuperMini
 
