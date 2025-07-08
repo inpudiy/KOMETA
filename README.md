@@ -1,4 +1,4 @@
-# KOMETA aka MOKETA (CASE SOURCE SOON)
+# KOMETA aka MOKETA
 
 ![All](https://github.com/inpudiy/KOMETA/blob/main/image/gallery/all.png)
 
