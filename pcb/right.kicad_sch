@@ -2584,7 +2584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 64.516 93.98 0)
 			(effects
 				(font
@@ -2653,7 +2653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 135.636 130.81 0)
 			(effects
 				(font
@@ -2724,7 +2724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 136.906 108.712 0)
 			(effects
 				(font
@@ -2795,7 +2795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 83.566 127.762 0)
 			(effects
 				(font
@@ -2864,7 +2864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 64.516 111.76 0)
 			(effects
 				(font
@@ -2935,7 +2935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 101.346 127.762 0)
 			(effects
 				(font
@@ -3004,7 +3004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 46.736 130.81 0)
 			(effects
 				(font
@@ -3073,7 +3073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 135.636 111.76 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 83.566 108.712 0)
 			(effects
 				(font
@@ -3213,7 +3213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 117.856 130.81 0)
 			(effects
 				(font
@@ -3284,7 +3284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 119.126 108.712 0)
 			(effects
 				(font
@@ -3355,7 +3355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 136.906 90.932 0)
 			(effects
 				(font
@@ -3426,7 +3426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 101.346 90.932 0)
 			(effects
 				(font
@@ -3497,7 +3497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 65.786 143.002 0)
 			(effects
 				(font
@@ -3566,7 +3566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 135.636 93.98 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 48.006 90.932 0)
 			(effects
 				(font
@@ -3706,7 +3706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 46.736 146.05 0)
 			(effects
 				(font
@@ -3777,7 +3777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 65.786 90.932 0)
 			(effects
 				(font
@@ -3845,7 +3845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lib:Reset"
+		(property "Footprint" "kometa:Reset"
 			(at 176.53 119.38 0)
 			(effects
 				(font
@@ -3913,7 +3913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lib:Battery"
+		(property "Footprint" "kometa:Battery"
 			(at 167.894 89.916 0)
 			(effects
 				(font
@@ -3984,7 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 119.126 90.932 0)
 			(effects
 				(font
@@ -4055,7 +4055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 136.906 127.762 0)
 			(effects
 				(font
@@ -4124,7 +4124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 117.856 93.98 0)
 			(effects
 				(font
@@ -4195,7 +4195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 48.006 143.002 0)
 			(effects
 				(font
@@ -4264,7 +4264,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 82.296 146.05 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 83.566 143.002 0)
 			(effects
 				(font
@@ -4404,7 +4404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 100.076 111.76 0)
 			(effects
 				(font
@@ -4473,7 +4473,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 100.076 130.81 0)
 			(effects
 				(font
@@ -4542,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 64.516 146.05 0)
 			(effects
 				(font
@@ -4611,7 +4611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 46.736 93.98 0)
 			(effects
 				(font
@@ -4682,7 +4682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 65.786 108.712 0)
 			(effects
 				(font
@@ -4751,7 +4751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 82.296 111.76 0)
 			(effects
 				(font
@@ -4820,7 +4820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 46.736 111.76 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 48.006 108.712 0)
 			(effects
 				(font
@@ -4960,7 +4960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 117.856 111.76 0)
 			(effects
 				(font
@@ -5031,7 +5031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 48.006 127.762 0)
 			(effects
 				(font
@@ -5100,7 +5100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 64.516 130.81 0)
 			(effects
 				(font
@@ -5171,7 +5171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 119.126 127.762 0)
 			(effects
 				(font
@@ -5240,7 +5240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:SuperMini"
+		(property "Footprint" "kometa:SuperMini"
 			(at 233.68 119.888 0)
 			(effects
 				(font
@@ -5375,7 +5375,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 82.296 93.98 0)
 			(effects
 				(font
@@ -5444,7 +5444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 82.296 130.81 0)
 			(effects
 				(font
@@ -5512,7 +5512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lib:MSK-12C02"
+		(property "Footprint" "kometa:MSK-12C02"
 			(at 178.054 91.694 0)
 			(effects
 				(font
@@ -5586,7 +5586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 101.346 108.712 0)
 			(effects
 				(font
@@ -5657,7 +5657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 83.566 90.932 0)
 			(effects
 				(font
@@ -5726,7 +5726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:ChocV2"
+		(property "Footprint" "kometa:ChocV2"
 			(at 100.076 93.98 0)
 			(effects
 				(font
@@ -5797,7 +5797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "lib:Diode"
+		(property "Footprint" "kometa:Diode"
 			(at 65.786 127.762 0)
 			(effects
 				(font

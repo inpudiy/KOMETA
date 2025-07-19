@@ -96,7 +96,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 16.51 177.8 0)
 			(effects
 				(font
@@ -160,7 +160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 26.67 187.96 0)
 			(effects
 				(font
@@ -224,7 +224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 26.67 177.8 0)
 			(effects
 				(font
@@ -288,7 +288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 26.67 193.04 0)
 			(effects
 				(font
@@ -351,7 +351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M5 hole"
+		(property "Footprint" "kometa:M5 hole"
 			(at 16.51 162.56 0)
 			(effects
 				(font
@@ -415,7 +415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 26.67 172.72 0)
 			(effects
 				(font
@@ -479,7 +479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 26.67 182.88 0)
 			(effects
 				(font
@@ -543,7 +543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 26.67 167.64 0)
 			(effects
 				(font
@@ -607,7 +607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 16.51 172.72 0)
 			(effects
 				(font
@@ -671,7 +671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 16.51 167.64 0)
 			(effects
 				(font
@@ -735,7 +735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 16.51 193.04 0)
 			(effects
 				(font
@@ -799,7 +799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 16.51 182.88 0)
 			(effects
 				(font
@@ -863,7 +863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:M2 Hole"
+		(property "Footprint" "kometa:M2 Hole"
 			(at 16.51 187.96 0)
 			(effects
 				(font
