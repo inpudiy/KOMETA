@@ -30,7 +30,7 @@ KOMETA is a split keyboard built around Choc switches, designed for wireless ope
 | 301230 battery                                               | 2   |
 | Turtle Switch SMD 2-pin (3 × 4 × 2 mm)                       | 2   |
 | Silicone bumpers (6 × 2 mm)                                  | 4   |
-| Pin Header Female Pin (2.54mm) (or MilMax)                   | 26  | 
+| Pin Header Female Pin (2.54mm) (or MilMax)                   | 48  | 
 | PG1350 hot-swap socket                                       | 42  |
 | Diode 1N4148W (SOD-323)                                      | 42  |
 | CHOC V1/2 switches                                           | 42  |
