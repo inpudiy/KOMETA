@@ -25,14 +25,14 @@ KOMETA is a split keyboard built around Choc switches, designed for wireless ope
 
 | Component                                                    | Qty |
 | ------------------------------------------------------------ | --- |
-| Microcontroller: nRFMicro / Super Mini nRF52840 / nice!nano  | 2   |
-| Power switch: MSK-12C02                                      | 2   |
+| Pro Micro board: Super Mini nRF52840 / nice!nano             | 2   |
+| MSK-12C02 Slide Switch                                       | 2   |
 | 301230 battery                                               | 2   |
-| Turtle Switch SMD 2-pin (3 × 4 × 2 mm)                       | 2   |
-| Silicone bumpers (6 × 2 mm)                                  | 4   |
-| Pin Header Female Pin (2.54mm) (or MilMax)                   | 48  | 
+| Turtle Switch SMD 2-pin (3x4x2 mm)                           | 2   |
+| Silicone bumpers (6x2 mm)                                    | 8   |
+| Round female machine pin socket (2.54mm pitch)               | 48  | 
 | PG1350 hot-swap socket                                       | 42  |
-| Diode 1N4148W (SOD-323)                                      | 42  |
+| Diode 1N4148WS (SOD-323)                                     | 42  |
 | CHOC V1/2 switches                                           | 42  |
 | M2 Hexagon Nut                                               | 12  |
 | M2 Thin Flat Head Screw 8mm                                  | 12  |
