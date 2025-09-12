@@ -1,0 +1,253 @@
+63272881209970
+kometa
+Battery
+
+
+0
+2
+2
+kometa
+BreakHole
+
+
+0
+0
+0
+kometa
+ChocV2
+
+
+0
+2
+2
+kometa
+Diode
+
+
+0
+2
+2
+kometa
+Kometa
+
+
+0
+0
+0
+kometa
+M2 Hole
+
+
+0
+1
+0
+kometa
+M5 hole
+
+
+0
+1
+0
+kometa
+MSK-12C02
+
+
+0
+7
+3
+kometa
+Reset
+
+
+0
+2
+2
+kometa
+SuperMini
+
+
+0
+24
+24
+mcu
+U_ProMicro_RP2040_TH
+Pro Micro RP2040 board, through hole
+
+0
+35
+33
+mcu
+U_ProMicro_nRF52840_MidMount
+Pro Micro nRF52840 board, mid-mount, through hole
+
+0
+24
+24
+mcu
+U_ProMicro_nRF52840_SMD
+Pro Micro nRF52840 board, SMD mounting
+
+0
+24
+24
+mcu
+U_ProMicro_nRF52840_TH
+Pro Micro nRF52840 board, through hole
+
+0
+24
+24
+mcu
+U_ProMicro_nRF52840_TH_Reversible
+Pro Micro nRF52840 board, through hole, reversible
+
+0
+168
+24
+mcu
+U_XIAO_nRF52840
+Seeed Studio XIAO nRF52840 board, SMD
+
+0
+18
+16
+mcu
+U_XIAO_nRF52840_Reversible
+Seeed Studio XIAO nRF52840 board, SMD, reversible
+
+0
+32
+16
+mcu
+U_Zero_RP2040
+RP2040-Zero board, сastellated mounting
+
+0
+46
+23
+switches
+SW_Alps_TH
+Alps/Matias switch, through hole
+
+0
+2
+2
+switches
+SW_B3G-S_TH
+B3G-S switch, through hole
+
+0
+3
+2
+switches
+SW_Choc_Mini_TH
+Choc Mini switch, through hole, one side
+
+0
+4
+2
+switches
+SW_Choc_V1V2_HS
+Choc V1/V2 switch, hot-swap, one side
+
+0
+2
+2
+switches
+SW_Choc_V1V2_HS_Reversible
+Choc V1/V2 switch, hot-swap, reversible
+
+0
+4
+2
+switches
+SW_Choc_V1V2_TH
+Choc V1/V2 switch, through hole, one side
+
+0
+2
+2
+switches
+SW_Choc_V1V2_TH_Reversible
+Choc V1/V2 switch, through hole, reversible
+
+0
+4
+2
+switches
+SW_Hi-Tek_725_TH
+Hi-Tek 725 switch, through hole
+
+0
+4
+2
+switches
+SW_KS-27KS-33_HS
+KS-27/33 switch, hot-swap
+
+0
+2
+2
+switches
+SW_KS-27KS-33_HS_Reversible
+KS-27/33 switch, hot-swap, reversible
+
+0
+4
+2
+switches
+SW_KS-27KS-33_TH
+KS-27/33 switch, through hole
+
+0
+2
+2
+switches
+SW_KS-27KS-33_TH_Reversible
+KS-27/33 switch, through hole, reversible
+
+0
+4
+2
+switches
+SW_MX_HS
+MX switch, hot-swap, one side
+
+0
+2
+2
+switches
+SW_MX_HS_Reversible
+MX switch, hot-swap, reversible
+
+0
+4
+2
+switches
+SW_MX_TH
+MX switch, through hole, one side
+
+0
+2
+2
+switches
+SW_MX_TH_Reversible
+MX switch, through hole, reversible
+
+0
+4
+2
+switches
+SW_PG1316
+PG1316 switch, SMD, one side
+
+0
+6
+3
+switches
+SW_PG1316_Reversible
+PG1316 switch, SMD, reversible
+
+0
+12
+3
