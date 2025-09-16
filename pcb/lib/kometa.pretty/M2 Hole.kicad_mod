@@ -58,8 +58,8 @@
 	(attr smd)
 	(pad "" thru_hole circle
 		(at 0 0 180)
-		(size 2.5 2.5)
-		(drill 2.2)
+		(size 2.2 2.2)
+		(drill 2)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ea63cacf-60e8-406b-baf4-a029747ca0f0")
