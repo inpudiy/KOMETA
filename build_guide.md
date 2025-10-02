@@ -58,10 +58,10 @@ Flip the PCB to the top side and apply flux with solder.
 
 Cut the ends of the pins with side cutters.
 
-![cutting_racks](image/build/cutting_racks.jpg)
-
 > [!WARNING]
 > Be careful and use eye protection (PLEASE BE EXTRA CAREFUL, AS THE CUT PIECES CAN EASILY FLY INTO YOUR EYE OR YOUR MONITOR SCREEN).
+
+![cutting_racks](image/build/cutting_racks.jpg)
 
 ## 7. Soldering the Controller
 
@@ -80,4 +80,32 @@ Be careful and make sure that the solder does not flow underneath the controller
 
 Solder the red wire to the + and the black wire to the – on the top side of the PCB, and place the battery in the area near the controller.
 
-![](image/build/solder_battery.jpg)
+![solder_battery](image/build/solder_battery.jpg)
+
+## 9. Flash
+
+Вот перевод на английский:
+
+---
+
+## 9. Flashing the Firmware
+
+After installing the controller on the board, connect the keyboard to your computer with a USB cable.
+
+Download the archive named **firmware** from this repository: [https://github.com/inpudiy/kometa-zmk/releases](https://github.com/inpudiy/kometa-zmk/releases)
+
+![firmware](image/build/fiwmare.png)
+
+Unpack the archive — inside, you should find two files: one for the left half and one for the right half.
+
+![unzip](image/build/unzip.png)
+
+After extracting the files, press the button on the keyboard located next to the power switch. A new drive should appear in your file explorer.
+
+![button](image/build/soldering_buttons.jpg)
+
+If it doesn’t appear, make sure the controller is functioning (check if the LEDs blink when powered on) and that your cable supports data transfer.
+
+Drag and drop the appropriate file onto the new drive for your half of the keyboard, then repeat the same process for the other half.
+
+If you run into difficulties, please consult the official [troubleshooting](https://zmk.dev/docs/troubleshooting) guide.
