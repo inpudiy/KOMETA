@@ -86,7 +86,7 @@ Solder the red wire to the + and the black wire to the – on the top side of th
 
 After installing the controller on the board, connect the keyboard to your computer with a USB cable.
 
-Download the archive named **firmware** from this repository: [https://github.com/inpudiy/kometa-zmk/releases](https://github.com/inpudiy/kometa-zmk/releases)
+Download the archive named **firmware** from this repository: [https://github.com/inpudiy/kometa-zmk/releases](https://github.com/inpudiy/zmk-KOMETA/releases)
 
 ![firmware](image/build/fiwmare.png)
 
