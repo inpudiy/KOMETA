@@ -34,4 +34,4 @@ KOMETA is a split keyboard built around Choc switches, designed for wireless ope
 | Diode 1N4148WS (SOD-323)                                     | 42  |
 | CHOC V1/2 switches                                           | 42  |
 | M2 Hexagon Nut                                               | 12  |
-| M2 Thin Flat Head Screw 8mm                                  | 12  |
+| M2 Thin Flat Head Screw 9mm                                  | 12  |
