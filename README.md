@@ -1,10 +1,10 @@
 # KOMETA aka MOKETA
 
-![All](image/gallery/preview.png)
+![All](image/gallery/preview.webp)
 
 KOMETA is a split keyboard built around Choc switches, designed for wireless operation with Pro Micro–sized microcontrollers. Its key feature is a mid-mount, hot-swappablecontroller design. To enable this, the PCB includes a USB-C port cutout, ensuring compatibility with popular wireless boards like: nice!nano or SuperMini
 
-[Build Guide](build.md) - [Mid-Mount](mid_mount.md) - [ZMK Firmware](https://github.com/inpudiy/zmk-KOMETA)
+[Build Guide](build.md) - [ZMK Firmware](https://github.com/inpudiy/zmk-KOMETA)
 
 ## Features
 
@@ -19,7 +19,6 @@ KOMETA is a split keyboard built around Choc switches, designed for wireless ope
 ![Bottom](image/pcb/bottom.svg)
 ![Top](image/pcb/top.svg)
 
-
 ## BOM (Bill of Materials)
 
 | Component                                                    | Qty |
@@ -30,6 +29,7 @@ KOMETA is a split keyboard built around Choc switches, designed for wireless ope
 | TS342A2P                                                     | 2   |
 | Silicone bumpers (6x2 mm)                                    | 8   |
 | Machine Pin Header Female                                    | 48  |
+| 50mm Industrial H62 brass wire 0.5mm thickness               | 1   |
 | PG1350 hot-swap socket                                       | 42  |
 | Diode 1N4148WS (SOD-323)                                     | 42  |
 | CHOC V1/2 switches                                           | 42  |
