@@ -1,4 +1,4 @@
-# KOMETA aka MOKETA
+# KOMETA
 
 ![All](image/gallery/preview.webp)
 
