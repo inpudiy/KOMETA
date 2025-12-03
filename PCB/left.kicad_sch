@@ -2580,7 +2580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 79.756 105.41 0)
 			(effects
 				(font
@@ -2649,7 +2649,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 105.41 0)
 			(effects
 				(font
@@ -2718,7 +2718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 41.656 86.36 0)
 			(effects
 				(font
@@ -2788,7 +2788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 138.176 102.362 0)
 			(effects
 				(font
@@ -2857,7 +2857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 86.36 0)
 			(effects
 				(font
@@ -2927,7 +2927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 61.976 83.312 0)
 			(effects
 				(font
@@ -2995,7 +2995,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kometa:Battery"
+		(property "Footprint" "kometa:J_Battery"
 			(at 176.784 78.486 0)
 			(effects
 				(font
@@ -3065,7 +3065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 81.026 102.362 0)
 			(effects
 				(font
@@ -3134,7 +3134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 124.46 0)
 			(effects
 				(font
@@ -3203,7 +3203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 124.46 0)
 			(effects
 				(font
@@ -3272,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 60.706 86.36 0)
 			(effects
 				(font
@@ -3341,7 +3341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 144.78 0)
 			(effects
 				(font
@@ -3411,7 +3411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 100.076 141.732 0)
 			(effects
 				(font
@@ -3480,7 +3480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 105.41 0)
 			(effects
 				(font
@@ -3549,7 +3549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 79.756 86.36 0)
 			(effects
 				(font
@@ -3619,7 +3619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 119.126 141.732 0)
 			(effects
 				(font
@@ -3689,7 +3689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 81.026 121.412 0)
 			(effects
 				(font
@@ -3757,7 +3757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kometa:Reset"
+		(property "Footprint" "kometa:SW_TS342A2P"
 			(at 185.42 102.87 0)
 			(effects
 				(font
@@ -3827,7 +3827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 81.026 83.312 0)
 			(effects
 				(font
@@ -3897,7 +3897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 119.126 102.362 0)
 			(effects
 				(font
@@ -3967,7 +3967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 138.176 121.412 0)
 			(effects
 				(font
@@ -4037,7 +4037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 42.926 83.312 0)
 			(effects
 				(font
@@ -4107,7 +4107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 42.926 121.412 0)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 86.36 0)
 			(effects
 				(font
@@ -4246,7 +4246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 119.126 121.412 0)
 			(effects
 				(font
@@ -4315,7 +4315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 41.656 124.46 0)
 			(effects
 				(font
@@ -4385,7 +4385,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 138.176 83.312 0)
 			(effects
 				(font
@@ -4454,7 +4454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 60.706 124.46 0)
 			(effects
 				(font
@@ -4524,7 +4524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 61.976 102.362 0)
 			(effects
 				(font
@@ -4593,7 +4593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 86.36 0)
 			(effects
 				(font
@@ -4662,7 +4662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 124.46 0)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 144.78 0)
 			(effects
 				(font
@@ -4800,7 +4800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 41.656 105.41 0)
 			(effects
 				(font
@@ -4870,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 138.176 141.732 0)
 			(effects
 				(font
@@ -4940,7 +4940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 119.126 83.312 0)
 			(effects
 				(font
@@ -5009,7 +5009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 60.706 105.41 0)
 			(effects
 				(font
@@ -5078,7 +5078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 105.41 0)
 			(effects
 				(font
@@ -5147,7 +5147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 79.756 124.46 0)
 			(effects
 				(font
@@ -5215,7 +5215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SuperMini"
+		(property "Footprint" "kometa:U_ProMicro_nRF52840"
 			(at 241.3 109.728 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 61.976 121.412 0)
 			(effects
 				(font
@@ -5419,7 +5419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "kometa:MSK-12C02"
+		(property "Footprint" "kometa:SW_MSK-12C02"
 			(at 186.944 80.264 0)
 			(effects
 				(font
@@ -5492,7 +5492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 100.076 83.312 0)
 			(effects
 				(font
@@ -5561,7 +5561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:ChocV2"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 144.78 0)
 			(effects
 				(font
@@ -5631,7 +5631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 100.076 121.412 0)
 			(effects
 				(font
@@ -5701,7 +5701,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 42.926 102.362 0)
 			(effects
 				(font
@@ -5771,7 +5771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:Diode"
+		(property "Footprint" "kometa:D_SOD323"
 			(at 100.076 102.362 0)
 			(effects
 				(font
