@@ -1,0 +1,120 @@
+(footprint "YS-SK6812MINI-E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "LED**"
+		(at 0.1524 0.1016 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83361b38-e5d9-4ddf-aabb-a550823b2bc5")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "YS-SK6812MINI-E"
+		(at 0 2.2225 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d34b257a-3b14-4a65-b231-1d2fff3ef814")
+		(effects
+			(font
+				(size 0.25 0.25)
+				(thickness 0.0625)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "24c40a8f-b123-4063-9a7c-5e45a088124b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "eea07b09-8604-4130-8b80-394065d926a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 3.9 0.75) (xy 4.039 0.611) (xy 4.039 0.889)
+		)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "e8795c33-d478-43cd-849e-eb77b1f5662b")
+	)
+	(fp_rect
+		(start -1.65 -1.45)
+		(end 1.65 1.45)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "58d816b5-1830-4b49-beab-16e93fdb23fc")
+	)
+	(pad "1" smd roundrect
+		(at -2.65 -0.75)
+		(size 1.7 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1219512195)
+		(uuid "ebda68c2-2f6a-489d-b2b6-68dd6ed7c230")
+	)
+	(pad "2" smd roundrect
+		(at -2.65 0.75)
+		(size 1.7 0.85)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1219512195)
+		(uuid "ac1ebc28-0fdc-4156-8712-04ce9ace63b0")
+	)
+	(pad "3" smd roundrect
+		(at 2.65 0.75)
+		(size 1.7 0.85)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1219512195)
+		(uuid "54cb3e12-b669-4d67-8c7c-c6ed68c6e436")
+	)
+	(pad "4" smd roundrect
+		(at 2.65 -0.75)
+		(size 1.7 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1219512195)
+		(uuid "203b6572-3004-4fbf-98db-4e2bb550feab")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/step/LED_SK6812MINI-E.step"
+		(offset
+			(xyz 0 5.08 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

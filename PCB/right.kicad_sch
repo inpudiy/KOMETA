@@ -1210,6 +1210,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "kometa:YS-SK6812MINI-E"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LED"
+				(at 3.81 6.096 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 6.604 -6.35 0)
+				(effects
+					(font
+						(size 0.7366 0.7366)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "YS-SK6812MINI-E_0_1"
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "YS-SK6812MINI-E_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 156.21 72.39)
@@ -1492,10 +1632,6 @@
 		(uuid "ffc79d2a-3531-4281-8ad4-b7d222a26554")
 	)
 	(no_connect
-		(at 215.9 83.82)
-		(uuid "06a44482-9b31-4cda-a712-5b63795fd432")
-	)
-	(no_connect
 		(at 215.9 88.9)
 		(uuid "09e5c080-198c-4cd3-ad39-b14111a97c69")
 	)
@@ -1520,6 +1656,10 @@
 		(uuid "45ce3b6f-4b5d-4c8c-81c5-8c9b3f48de61")
 	)
 	(no_connect
+		(at 172.72 149.86)
+		(uuid "4c16c25d-8450-4892-9f1c-9abcd0fa1a68")
+	)
+	(no_connect
 		(at 215.9 99.06)
 		(uuid "702dc052-e64b-40d8-95c0-e2b9437229bf")
 	)
@@ -1534,10 +1674,6 @@
 	(no_connect
 		(at 180.34 80.01)
 		(uuid "bf0dd5f2-182d-4997-a844-ebe8c7847c01")
-	)
-	(no_connect
-		(at 251.46 91.44)
-		(uuid "c1a54660-658e-42ee-ac4e-7485b1bc6657")
 	)
 	(no_connect
 		(at 215.9 96.52)
@@ -2029,6 +2165,28 @@
 			)
 		)
 	)
+	(global_label "LED_R"
+		(shape input)
+		(at 172.72 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "258d55e6-927b-4ff1-b5ca-1cfbabac6c11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 181.3899 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ROW_R1"
 		(shape input)
 		(at 40.64 113.03 180)
@@ -2113,6 +2271,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_R"
+		(shape input)
+		(at 165.1 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d669ad0-4bfb-4831-ba1f-3f71f1b1c2e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.0067 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2469,6 +2649,50 @@
 			)
 		)
 	)
+	(global_label "VCC_R"
+		(shape input)
+		(at 251.46 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba438196-7c70-4ca2-a720-4bbccbd98159")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.3114 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_R"
+		(shape input)
+		(at 215.9 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ced9637f-bde6-4a5f-86e7-135ac8351114")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.2301 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "COL_R1"
 		(shape input)
 		(at 69.85 86.36 90)
@@ -2548,6 +2772,28 @@
 		(uuid "f4e68561-a56f-4556-ae5f-3182967a95c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 260.5533 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC_R"
+		(shape input)
+		(at 180.34 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f59401d4-c050-45d8-9b7d-67b49471a4f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.1914 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4579,6 +4825,81 @@
 			(project "KOMETA"
 				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/a35db046-83b9-48ee-bc16-fc20ad35d452"
 					(reference "SW41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "kometa:YS-SK6812MINI-E")
+		(at 172.72 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc74627-3300-4c5e-ad58-0129eac0722c")
+		(property "Reference" "LED2"
+			(at 180.34 138.9949 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 179.324 148.59 0)
+			(effects
+				(font
+					(size 0.7366 0.7366)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "kometa:YS-SK6812MINI-E"
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "94ae8877-5deb-42e3-a962-8ba574644e66")
+		)
+		(pin "4"
+			(uuid "c903e3e0-393d-4858-b08d-55b8801e25b2")
+		)
+		(pin "1"
+			(uuid "c828996e-eb0f-4c80-8975-dfff3f619fab")
+		)
+		(pin "2"
+			(uuid "639d57fe-4601-4be6-adb6-af28aeb19d91")
+		)
+		(instances
+			(project "KOMETA"
+				(path "/87d0d44c-3cdf-4c1b-91f4-ef0852a5e1e5/a35db046-83b9-48ee-bc16-fc20ad35d452"
+					(reference "LED2")
 					(unit 1)
 				)
 			)
