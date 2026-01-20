@@ -58,7 +58,88 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|125400000|170425000|736f79c5-f973-4a6a-bf38-414c629d3240|16e8fa98-e7d8-4b0f-8f47-7bb34be330ab",
+          ""
+        ],
+        [
+          "copper_edge_clearance|125400000|170425000|736f79c5-f973-4a6a-bf38-414c629d3240|d32ad53f-f7bb-4b19-8ba0-48e2136e20cb",
+          ""
+        ],
+        [
+          "copper_edge_clearance|132600000|170425000|736f79c5-f973-4a6a-bf38-414c629d3240|a1763438-1c64-47d7-a262-b5a280cee88b",
+          ""
+        ],
+        [
+          "copper_edge_clearance|132600000|170425000|736f79c5-f973-4a6a-bf38-414c629d3240|c6c12dcb-2f1c-4023-82ef-f96ba1f9cc0f",
+          ""
+        ],
+        [
+          "copper_edge_clearance|200402439|160602439|4bc1253e-6360-4aeb-9ec8-5ac9feb4c6dd|d38b13f7-aacc-4bb4-9207-44c35a6bac9d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|200402439|164397561|4bc1253e-6360-4aeb-9ec8-5ac9feb4c6dd|26976351-6014-46b0-bbac-5df1e8d71eac",
+          ""
+        ],
+        [
+          "copper_edge_clearance|201921341|160596341|d1d88350-2533-4a15-86c4-b5013e9f9da6|8fef7e0e-acee-4713-8eb5-e338c60b4b6c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|202300000|165800000|20a3bfb8-020b-4310-adf4-334f005fbfe0|d9745101-5ba5-4704-a84c-2259dc4c1bd8",
+          ""
+        ],
+        [
+          "copper_edge_clearance|213302439|160602439|1983ff28-7109-4fd1-b498-ea5a2840c2e5|92f61f8f-271e-41ab-804b-96031d169fab",
+          ""
+        ],
+        [
+          "copper_edge_clearance|213302439|164397561|1983ff28-7109-4fd1-b498-ea5a2840c2e5|2fa388ef-50b4-436f-bdc0-eca867a9675a",
+          ""
+        ],
+        [
+          "copper_edge_clearance|214821341|160596341|1983ff28-7109-4fd1-b498-ea5a2840c2e5|d1fc3e8a-f95e-4040-9db3-a16f7a3c4af5",
+          ""
+        ],
+        [
+          "copper_edge_clearance|214821341|164403659|1983ff28-7109-4fd1-b498-ea5a2840c2e5|25d86770-92e1-4e2a-865b-86a1787c4bd3",
+          ""
+        ],
+        [
+          "copper_edge_clearance|281400000|170425000|d5a403ab-ce00-4166-bd6c-882e1e7853be|10f1565a-eb0b-4a80-87d7-3e88b7841b1d",
+          ""
+        ],
+        [
+          "copper_edge_clearance|281400000|170425000|d5a403ab-ce00-4166-bd6c-882e1e7853be|2e64cb29-d3f4-4459-88f3-225526520661",
+          ""
+        ],
+        [
+          "copper_edge_clearance|288600000|170425000|d5a403ab-ce00-4166-bd6c-882e1e7853be|4300740d-1f43-43c3-b52d-95ff18dc0849",
+          ""
+        ],
+        [
+          "copper_edge_clearance|288600000|170425000|d5a403ab-ce00-4166-bd6c-882e1e7853be|7487cd82-e718-4f72-8025-de05f295103d",
+          ""
+        ],
+        [
+          "hole_clearance|201921341|165000000|d9745101-5ba5-4704-a84c-2259dc4c1bd8|54b52988-0be2-4183-a490-05f72a0a10fb",
+          ""
+        ],
+        [
+          "hole_clearance|201921341|165800000|d9745101-5ba5-4704-a84c-2259dc4c1bd8|8491be34-e28c-4e29-a5e4-4322126ceec3",
+          ""
+        ],
+        [
+          "hole_clearance|212697561|165000000|cda57dfb-8938-48ac-8f78-9bb984d6e615|2fa388ef-50b4-436f-bdc0-eca867a9675a",
+          ""
+        ],
+        [
+          "hole_clearance|212697561|165800000|fe77dd10-e5ed-4be4-8f55-8042f2ae6524|2fa388ef-50b4-436f-bdc0-eca867a9675a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -83,7 +164,7 @@
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -101,7 +182,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",

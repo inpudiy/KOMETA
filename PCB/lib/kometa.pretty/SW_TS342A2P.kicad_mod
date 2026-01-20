@@ -64,6 +64,17 @@
 			(type solid)
 		)
 		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f1e4d2e7-9631-4532-bc9c-47d0223dd73a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
 		(layer "B.SilkS")
 		(uuid "b4fc4347-21c8-4f1d-bee3-a40f544841dc")
 	)
@@ -84,9 +95,23 @@
 	(pad "1" smd roundrect
 		(at -2.3 0)
 		(size 1.1 2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.1666666667)
 		(uuid "850ce8c8-f457-4bc1-ba1d-0c7fe8e0febb")
+	)
+	(pad "1" smd roundrect
+		(at -2.3 0)
+		(size 1.1 2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "7e9b112a-bd99-46b5-a38a-2247cac968db")
+	)
+	(pad "2" smd roundrect
+		(at 2.1 0)
+		(size 1.1 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(uuid "e09dd3ee-eced-4fef-8b4d-10de8169a904")
 	)
 	(pad "2" smd roundrect
 		(at 2.1 0)
