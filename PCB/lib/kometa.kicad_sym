@@ -362,7 +362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
 			(at -0.254 -6.35 0)
 			(effects
 				(font
