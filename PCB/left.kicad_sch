@@ -303,7 +303,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+			(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 				(at -0.254 -6.35 0)
 				(effects
 					(font
@@ -2826,7 +2826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 79.756 105.41 0)
 			(effects
 				(font
@@ -2895,7 +2895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 105.41 0)
 			(effects
 				(font
@@ -2964,7 +2964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 41.656 86.36 0)
 			(effects
 				(font
@@ -3103,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 86.36 0)
 			(effects
 				(font
@@ -3380,7 +3380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 124.46 0)
 			(effects
 				(font
@@ -3449,7 +3449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 124.46 0)
 			(effects
 				(font
@@ -3518,7 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 60.706 86.36 0)
 			(effects
 				(font
@@ -3587,7 +3587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 144.78 0)
 			(effects
 				(font
@@ -3726,7 +3726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 105.41 0)
 			(effects
 				(font
@@ -3795,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 79.756 86.36 0)
 			(effects
 				(font
@@ -4422,7 +4422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 86.36 0)
 			(effects
 				(font
@@ -4561,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 41.656 124.46 0)
 			(effects
 				(font
@@ -4700,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 60.706 124.46 0)
 			(effects
 				(font
@@ -4839,7 +4839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 86.36 0)
 			(effects
 				(font
@@ -4908,7 +4908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 117.856 124.46 0)
 			(effects
 				(font
@@ -4977,7 +4977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 144.78 0)
 			(effects
 				(font
@@ -5046,7 +5046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 41.656 105.41 0)
 			(effects
 				(font
@@ -5255,7 +5255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 60.706 105.41 0)
 			(effects
 				(font
@@ -5324,7 +5324,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 98.806 105.41 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 79.756 124.46 0)
 			(effects
 				(font
@@ -5882,7 +5882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2_with_KS27_KS33"
+		(property "Footprint" "kometa:SW_Hotswap_Kailh_Choc_V1V2"
 			(at 136.906 144.78 0)
 			(effects
 				(font
