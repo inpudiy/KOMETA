@@ -19,6 +19,10 @@ KOMETA is a split keyboard built around Choc switches, designed for wireless ope
 ![Bottom](IMAGE/PCB/BOTTOM.svg)
 ![Top](IMAGE/PCB/TOP.svg)
 
+## Case
+
+The repository includes two case variants: the original with angular walls, and a rounded community fork by @max_shu.
+
 ## BOM (Bill of Materials)
 
 | Component                                                    | Qty |
